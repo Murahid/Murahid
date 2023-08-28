@@ -92,6 +92,7 @@ verify-client-cert none
 client-cert-not-required
 script-security 3
 max-clients 1024
+duplicate-cn
 client-connect /etc/openvpn/login/connect.sh
 client-disconnect /etc/openvpn/login/disconnect.sh
 ifconfig-pool-persist /etc/openvpn/server/ip_tcp.txt
@@ -132,6 +133,7 @@ reneg-sec 0
 user nobody
 group nogroup
 client-to-client
+duplicate-cn
 username-as-common-name
 verify-client-cert none
 client-cert-not-required
@@ -171,6 +173,7 @@ ncp-disable
 auth none
 sndbuf 0
 rcvbuf 0
+duplicate-cn
 keepalive 10 120
 persist-key
 persist-tun
