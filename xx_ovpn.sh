@@ -82,6 +82,7 @@ rcvbuf 0
 duplicate-cn
 keepalive 10 120
 persist-key
+duplicate-cn
 persist-tun
 ping-timer-rem
 reneg-sec 0
@@ -122,6 +123,7 @@ tls-version-min 1.2
 tls-cipher TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256
 cipher none
 ncp-disable
+duplicate-cn
 auth none
 sndbuf 0
 rcvbuf 0
@@ -172,6 +174,7 @@ cipher none
 ncp-disable
 auth none
 sndbuf 0
+duplicate-cn
 rcvbuf 0
 keepalive 10 120
 persist-key
