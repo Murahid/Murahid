@@ -79,6 +79,7 @@ ncp-disable
 auth none
 sndbuf 0
 rcvbuf 0
+duplicate-cn
 keepalive 10 120
 persist-key
 persist-tun
@@ -124,6 +125,7 @@ ncp-disable
 auth none
 sndbuf 0
 rcvbuf 0
+duplicate-cn
 keepalive 10 120
 persist-key
 persist-tun
@@ -179,6 +181,7 @@ reneg-sec 0
 user nobody
 group nogroup
 client-to-client
+duplicate-cn
 username-as-common-name
 verify-client-cert none
 client-cert-not-required
